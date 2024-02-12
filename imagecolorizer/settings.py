@@ -99,7 +99,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'colordb',
         'USER': 'root',
-        'PASSWORD': 'anup',
+        'PASSWORD': '6650509869a',
         'HOST':'127.0.0.1',
         'PORT':'3306',
     }
@@ -137,9 +137,6 @@ USE_TZ = True
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-# CORS_ALLOW_ALL_ORIGINS = [
-#     "http://localhost:5173/",  #React development server
-# ]
 
 CORS_ALLOW_CREDENTIALS = True
 # Static files (CSS, JavaScript, Images)
