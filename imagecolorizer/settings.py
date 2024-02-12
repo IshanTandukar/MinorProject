@@ -99,7 +99,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'colordb',
         'USER': 'root',
-        'PASSWORD': '6650509869a',
+        'PASSWORD': 'anup',
         'HOST':'127.0.0.1',
         'PORT':'3306',
     }
@@ -158,7 +158,7 @@ STATICFILES_DIRS = [
     BASE_DIR / 'image-main/dist/assets'
 ]
 
-MEDIA_ROOT = 'media/images'
+# MEDIA_ROOT = 'media'
 
 #TATIC_ROOT = os.path.join (BASE_DIR , "staticfiles")
 
@@ -202,4 +202,4 @@ AUTH_USER_MODEL = 'api.User'
 
 # BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# MODEL_PATH = os.path.join(BASE_DIR, 'milanmodel.keras')
+# MODEL_PATH = os.path.join(BASE_DIR, 'anup.h5')
