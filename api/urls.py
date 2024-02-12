@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import RegisterView, LoginView, UserView, LogoutView, ColorizeImageView, ImageView
+from .views import RegisterView, LoginView, UserView, LogoutView, ImageView
 
 from rest_framework_simplejwt.views import (
     TokenObtainPairView,
@@ -18,5 +18,5 @@ urlpatterns = [
     path('products/', ImageView.as_view()),
     # path('api/products/<int:product_id>/colorize/', colorize_image, name='colorize_image'),
     #  path('colorize/', ColorizeImageView.as_view()),
-    path('colorize-image/<int:pk>/', ColorizeImageView.as_view(), name='colorize_image'),
+    # path('colorize-image/<int:pk>/', ColorizeImageView.as_view(), name='colorize_image'),
 ]
