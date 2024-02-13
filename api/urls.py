@@ -16,7 +16,4 @@ urlpatterns = [
     path('user', UserView.as_view()),
     path('logout', LogoutView.as_view()),
     path('products/', ImageView.as_view()),
-    # path('api/products/<int:product_id>/colorize/', colorize_image, name='colorize_image'),
-    #  path('colorize/', ColorizeImageView.as_view()),
-    # path('colorize-image/<int:pk>/', ColorizeImageView.as_view(), name='colorize_image'),
 ]
